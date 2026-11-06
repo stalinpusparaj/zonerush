@@ -7,33 +7,42 @@
 <header class="top"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="" width="32" height="32">ZONE RUSH</a><nav class="langs" aria-label="Language"><a href="index.html" hreflang="en" lang="en" aria-current="page">English</a><a href="hi.html" hreflang="hi" lang="hi">हिन्दी</a><a href="ta.html" hreflang="ta" lang="ta">தமிழ்</a><a href="te.html" hreflang="te" lang="te">తెలుగు</a></nav></div></header>
 <main class="wrap doc">
 <h1>Privacy Policy</h1>
-<p class="meta">Last updated: 3 November 2026 · Developer: GEM CREATORS · Contact: <a href="mailto:gemmyapps@gmail.com">gemmyapps@gmail.com</a></p>
+<p class="meta">Last updated: 6 November 2026 · Developer: GEM CREATORS · Contact: <a href="mailto:gemmyapps@gmail.com">gemmyapps@gmail.com</a></p>
 
 <h2>1. Summary</h2>
-<p>Zone Rush is a single-player game. It does not ask for your name, email address, phone number, location, contacts, photos, camera or microphone. We do not run our own game servers and we do not sell personal data.</p>
-<p>The Android app uses one Google service, Google Play Billing, described in section 3. The app shows no ads, has no analytics and no crash reporting, and does not use Google Play Games sign-in.</p>
+<p>Zone Rush is a game you can play offline, alone: Solo Campaign, Daily and Endless need no internet. Optional online rooms let up to 4 players join by short room code. The game does not ask for your name, email address, phone number, location, contacts, photos, camera or microphone. We do not run our own game servers and we do not sell personal data.</p>
+<p>The Android app uses Google Play Billing for purchases, described in section 3. If you choose an online room, your IP address reaches the third-party services listed in section 3 and the other players in the room; see section 4. The app shows no ads, has no analytics and no crash reporting, has no accounts, and does not use Google Play Games sign-in.</p>
 <h2>2. Data stored on your device</h2>
 <p>Your progress, settings, cosmetics, gem balance and stats are stored locally on your device (app/WebView storage). You can erase them at any time with <b>Settings → Delete my data</b> in the game, by clearing the app's storage, or by uninstalling the app.</p>
-<h2>3. Third-party services (Android app only)</h2>
-<div class="tbl"><table><thead><tr><th scope="col">Service</th><th scope="col">What it processes</th><th scope="col">Why</th><th scope="col">Optional?</th></tr></thead><tbody><tr><td><b>Google Play Billing</b></td><td>Purchase records, handled by Google Play. We receive only an order id and the item bought, never your payment details.</td><td>Processing optional cosmetic purchases and restoring them</td><td>Yes. Purchases are cosmetic only and never required.</td></tr></tbody></table></div>
-<p>Google's policies apply to these services: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
-<h2>4. What we do not collect</h2>
-<p>No precise or approximate location, contacts, photos, videos, audio, messages, browsing history, health data or files. There is no in-game chat, no multiplayer and no user-to-user communication.</p>
-<h2>5. Security</h2>
+<h2>3. Third-party services</h2>
+<div class="tbl"><table><thead><tr><th scope="col">Service</th><th scope="col">What it processes</th><th scope="col">Why</th><th scope="col">Optional?</th></tr></thead><tbody><tr><td><b>Google Play Billing</b></td><td>Purchase records, handled by Google Play. We receive only an order id and the item bought, never your payment details.</td><td>Processing optional purchases (gem packs, season pass, supporter pack) and restoring them</td><td>Yes. Money buys only cosmetics, and purchases are never required.</td></tr><tr><td><b>PeerServer Cloud</b> (0.peerjs.com), run by the PeerJS project</td><td>Your IP address and the room code</td><td>Connection setup, so devices in a room can find each other</td><td>Yes. Used only if you create or join an online room.</td></tr><tr><td><b>Google STUN</b> (stun.l.google.com), run by Google</td><td>Your IP address</td><td>Helping devices find a network route to each other</td><td>Yes. Used only if you create or join an online room.</td></tr><tr><td><b>PeerJS TURN relay</b> (turn.peerjs.com), run by the PeerJS project</td><td>Your IP address and the game data of the room, when traffic goes through the relay</td><td>Carrying game data when devices cannot connect directly</td><td>Yes. Used only if you create or join an online room.</td></tr></tbody></table></div>
+<p>Google's policies apply to its services: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>. The PeerJS services are described at <a href="https://peerjs.com">peerjs.com</a>.</p>
+<h2>4. Online rooms</h2>
+<p>Online rooms are optional. They offer co-op, endless co-op and versus for up to 4 players, who join with a short room code. Solo Campaign, Daily and Endless play offline and use none of this.</p>
+<p>If you create or join a room:</p>
+<ul>
+<li><b>Connection setup:</b> PeerServer Cloud (0.peerjs.com) handles the room code and your IP address so devices can find each other, and Google STUN (stun.l.google.com) receives your IP address to help find a route between them.</li>
+<li><b>Playing:</b> devices connect directly using WebRTC, or through the PeerJS TURN relay (turn.peerjs.com) when needed. Game data travels between the devices in the room.</li>
+<li><b>Other players:</b> players in the same room can see each other's IP address at the network level. Share a room code only with people you are happy to play with.</li>
+</ul>
+<p>Rooms have no chat, no names and no accounts. We do not run these services, we do not receive or store this data, and we cannot delete data held by them. How long it is kept is decided by the companies and projects that run them.</p>
+<h2>5. What we do not collect</h2>
+<p>The app does not read or collect your location, contacts, photos, videos, audio, messages, browsing history, health data or files. There is no in-game chat. The only user-to-user connection is the game data shared with players in an online room, as described in section 4. An IP address can show a rough location; it reaches the services and players in section 4 only if you use an online room.</p>
+<h2>6. Security</h2>
 <p>Purchase data sent by Google Play Billing leaves your device encrypted in transit (HTTPS/TLS).</p>
-<h2>6. Your choices and data deletion</h2>
+<h2>7. Your choices and data deletion</h2>
 <ul>
 <li><b>In the game:</b> Settings → <b>Delete my data</b> erases local progress, gems, cosmetics and stats.</li>
 <li><b>Purchases:</b> your Google Play order history is kept by Google; see it or request deletion in your Google Account.</li>
-
+<li><b>Online rooms:</b> to keep your IP address away from these services and other players, do not use online rooms. We cannot delete data held by the services in section 4, and <b>Delete my data</b> does not reach them.</li>
 <li>We hold no other copy of your data. Questions: <a href="mailto:gemmyapps@gmail.com">gemmyapps@gmail.com</a>.</li>
 </ul>
 <p>Full steps: <a href="delete-data.html">Delete your Zone Rush data</a>.</p>
-<h2>7. Children</h2>
+<h2>8. Children</h2>
 <p>Zone Rush is not directed to children under 13. Its target audience is 13 and older, and we do not knowingly collect personal information from children under 13. If you believe a child has provided data, contact <a href="mailto:gemmyapps@gmail.com">gemmyapps@gmail.com</a> and we will delete it.</p>
-<h2>8. Changes</h2>
+<h2>9. Changes</h2>
 <p>We will update this page when the app changes and change the “Last updated” date above.</p>
-<h2>9. Contact</h2>
+<h2>10. Contact</h2>
 <p>GEM CREATORS, Chennai, Tamil Nadu, India. Email: <a href="mailto:gemmyapps@gmail.com">gemmyapps@gmail.com</a>.</p>
 </main>
 <footer><div class="wrap"><nav><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a><a href="delete-data.html">Delete your data</a><a href="https://play.google.com/store/apps/details?id=com.gemmyapps.zonerush">Google Play</a></nav><p>Zone Rush is an original game. Google Play and the Google Play logo are trademarks of Google LLC.</p><p>© 2026 GEM CREATORS</p></div></footer>
